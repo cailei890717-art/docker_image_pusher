@@ -1,11 +1,11 @@
 
 # redis
---platform=linux/amd64 redis:7.2.4 
---platform=linux/arm64 redis:7.2.4 
+#--platform=linux/amd64 redis:7.2.4 
+#--platform=linux/arm64 redis:7.2.4 
 
 # mysql
---platform=linux/amd64 mysql:8.0.28-oracle
---platform=linux/arm64/v8 mysql:8.0.28-oracle
+--platform=linux/amd64 mysql:8.0.39
+--platform=linux/arm64 mysql:8.0.39
 
 #支持指定架构
 
